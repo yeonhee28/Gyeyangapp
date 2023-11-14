@@ -1,0 +1,127 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/art">문화소식</a></span>
+            <strong class="title_news">{{data[6].title}}</strong>
+            <span class="daFe">{{ data[6].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/con1.jpg" alt="#" />
+            <p>제 29회 계양구민의 날 기념</p>
+            <p><span style="color: green;">가을 음악회</span><span style="color: orange;"> 드론쇼</span>를 개최합니다!</p>
+            <p><mark>일시 : 2023. 10. 5.(목)</mark></p>
+
+            <img src="/img/con2.jpg" alt="#" />
+            <p><mark>▶ 장 소</mark></p>
+            <h6>계양아시아드 양궁경기장, 유튜브 생중계 병행
+            </h6>
+            </br>
+
+            <p><mark>▶ 주요내용</mark></p>
+            <h6>- 1부(16:00~16:50) : 지역 예술인 공연[계양마이크]
+            </h6>
+            <h6>- 2부(17:00~18:00) : 구민의 날 기념식</h6>
+            <h6>- 3부(18:20~21:00) : 가을음악회&드론쇼</h6>
+            <h6>
+                ※ 대중교통을 이용하여 주시기 바랍니다.
+                </h6>
+            </br>
+
+            <p><mark>▶ 출연가수</mark></p>
+            <h6>이찬원, 송가인, 박재정, 트라이비, 변진섭, 김완준, 김용임
+            </h6>
+            </br>
+
+            <img src="/img/con3.jpg" alt="#" />
+            <p><mark>▶ 공연장 내 유의사항</mark></p>
+
+            <p>- 생수 외 음식물 반입금지
+            </p>
+            <p>- 돗자리, 그늘막, 텐트, 캠핑의자 설치 불가
+            </p>
+            <p>- 반려동물은 다른 관람객 안전을 고려해 </p>
+            <p>    입장이 불가하니 양해바랍니다.
+            </p>
+
+            <h5>문의처</h5>
+            <p>계양구 문화체육관광과
+
+                </p>
+            <p>☎ 032-450-5874</p>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

@@ -1,0 +1,131 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[7].title}}</strong>
+            <span class="daFe">{{ data[7].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/slate1.jpg" alt="#" />
+            <p>
+              <span style="color: orangered"
+                >2023년도 슬레이트 처리지원 사업</span
+              >을 진행합니다.
+            </p>
+            <p>자세한 내용을 확인하시고 접수하세요!</p>
+
+            <img src="/img/slate2.jpg" alt="#" />
+            <p>
+              슬레이트 노후화에 따른 구민의
+              <mark>석면피해 예방 및 건강보호</mark>에 기여하고
+            </p>
+            <p>
+              처리비용을 지원하여 슬레이트 처리에 대한
+              <mark>비용부담 절감 및 생활환경을 개선</mark>하고자
+            </p>
+            <h5>
+              2023년도
+              <span style="color: orangered">슬레이트 처리지원 사업</span> 을
+              진행합니다.
+            </h5>
+
+            <br />
+            <img src="/img/slate3.jpg" alt="#" />
+            <h5>
+              <span style="color: orangered">▶ 지원안내</span>
+            </h5>
+            <p>지원내역 : 주택(부속건물포함) 또는 비주택(창고, 축사)</p>
+            <p>지원대상 : 계양구 관내 슬레이트 주택 및 비주택 소유자</p>
+            <p>접수방법 : 계양구청 환경과 방문접수 또는 우편접수</p>
+            <p>문의 : 계양구청 환경과 ☎032-450-6763</p>
+
+            <img src="/img/slate4.jpg" alt="#" />
+            <h5>
+              <span style="color: orangered">▶ 지원한도</span>
+            </h5>
+            <h5>✅우선지원가구</h5>
+            <p>주택철거, 처리(부속건물 포함) : 전액지원</p>
+            <p>비주택(창고, 축사) 철거, 처리 : 슬레이트 철거 면적 200제곱미터이하일 경우 철거, 처리비 전액지원</p>
+            <p>주택 지붕개량 : 최대 1000만원</p>
+            <hr>
+            <h5>✅일반 가구</h5>
+            <p>주택철거, 처리(부속건물 포함) : 352만원 범위 소규모 우선</p>
+            <p>비주택(창고, 축사) 철거, 처리 :슬레이트 철거 면적 200제곱미터이하일 경우 철거, 처리비 전액지원</p>
+            <p>주택 지붕개량 : 최대 300만원</p>
+
+            <p><span style="color: orangered;">※ 기타 자세한 사항은 공고문을 참고하시기 바랍니다.</span></p>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

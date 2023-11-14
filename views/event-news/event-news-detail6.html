@@ -1,0 +1,110 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[5].title}}</strong>
+            <span class="daFe">{{ data[5].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/food1.jpg" alt="#" />
+            <p><mark>10월 중순 ~ 12월 말 김장철</mark></p>
+            <h6>올바른 <span style="color: orangered">김장용 쓰레기 분리수거 방법</span>을</h6>
+            <p>안내드립니다!</p>
+
+            <img src="/img/food2.jpg" alt="#" />
+            <p><span style="color: orangered">김장철 쓰레기 분리수거 방법</p>
+            <p>배출기간 : 10월 중순 ~ 12월 말</p>
+            <p>
+                <span style="color: orangered">일반 쓰레기(생활 쓰레기)</span> : 생배추, 생무(껍질포함), 무청 등
+              생채소류
+            </p>
+            <p>양파·마늘·생강껍질, 파뿌리, 고추씨, 고춧대</p>
+            <p><span style="color: green">배출방법</span> : 잘게 썰어서 일반 종량제봉투(흰색)에 배출</p>
+            <hr />
+            <p><span style="color: orangered">음식물 쓰레기</span> : 절임무, 절임배추, 양념된 채소, 김장 잔재물</p>
+            <p>
+                <span style="color: green">배출방법</span> : 음식물류 폐기물 전용봉투(녹색), 음식물 공동
+              중간수거용기, RFID 음식물 종량기기
+            </p>
+            <p>
+              <mark
+                >유의사항: 종량제봉투 외에 다른 봉투(마대, 비닐봉투 등)를
+                사용하여 배출하거나 음식물쓰레기를 일반쓰레기와 혼합하여 배출할
+                시 무단투기 과태료 부과</mark>
+            </p>
+            <h6>문의 : 청소행정과 재활용팀 ☎ 032-450-5454</h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

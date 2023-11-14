@@ -1,0 +1,227 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="container fluid mt-5">
+  <div class="blogView">
+    <table class="news-body">
+      <tbody>
+        <tr>
+          <td class="bcc">
+            <div class="newslist-body">
+              <ul class="newslist" algin>
+                <li class="item">
+                  <a href="/news/detail1" class="imglink">
+                    <div class="area_news">
+                      <img src="/img/parkingm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[0].title}}</strong>
+                      <span class="daFe">{{data[0].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail2">
+                    <div class="area_news">
+                      <img src="/img/youthm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[1].title}}</strong>
+                      <span class="daFe">{{ data[1].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail3">
+                    <div class="area_news">
+                      <img src="/img/streamingm.png" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[2].title}}</strong>
+                      <span class="daFe">{{ data[2].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail4">
+                    <div class="area_news">
+                      <img src="/img/childm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[3].title}}</strong>
+                      <span class="daFe">{{ data[3].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail5">
+                    <div class="area_news">
+                      <img src="/img/submitm.png" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[4].title}}</strong>
+                      <span class="daFe">{{ data[4].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail6">
+                    <div class="area_news">
+                      <img src="/img/foodm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[5].title}}</strong>
+                      <span class="daFe">{{ data[5].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail7">
+                    <div class="area_news">
+                      <img src="/img/coursem.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[6].title}}</strong>
+                      <span class="daFe">{{ data[6].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail8">
+                    <div class="area_news">
+                      <img src="/img/slatem.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[7].title}}</strong>
+                      <span class="daFe">{{ data[7].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail9" class="imglink">
+                    <div class="area_news">
+                      <img src="/img/springm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[8].title}}</strong>
+                      <span class="daFe">{{ data[8].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail10">
+                    <div class="area_news">
+                      <img src="/img/advicem.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[9].title}}</strong>
+                      <span class="daFe">{{ data[9].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail11">
+                    <div class="area_news">
+                      <img src="/img/singm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[10].title}}</strong>
+                      <span class="daFe">{{ data[10].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail12">
+                    <div class="area_news">
+                      <img src="/img/musicm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[11].title}}</strong>
+                      <span class="daFe">{{ data[11].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail13">
+                    <div class="area_news">
+                      <img src="/img/bagm.png" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[12].title}}</strong>
+                      <span class="daFe">{{ data[12].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail14">
+                    <div class="area_news">
+                      <img src="/img/covidm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[13].title}}</strong>
+                      <span class="daFe">{{ data[13].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail15">
+                    <div class="area_news">
+                      <img src="/img/rodem.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[14].title}}</strong>
+                      <span class="daFe">{{ data[14].date}}</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/news/detail16">
+                    <div class="area_news">
+                      <img src="/img/animalm.jpg" class="news" />
+                    </div>
+                    <div class="area_text">
+                      <strong class="title_ell">{{data[15].title}}</strong>
+                      <span class="daFe">{{ data[15].date}}</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{% include "include/footer.html"%}

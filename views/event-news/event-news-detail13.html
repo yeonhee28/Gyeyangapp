@@ -1,0 +1,109 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[12].title}}</strong>
+            <span class="daFe">{{ data[12].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/bag1.png" alt="#" />
+            <p>
+              없으면 아쉽고 구매하긴 부담스러운 공구 이제 계양구
+              마을주택관리소에서 대여해드려요.
+            </p>
+            <p>마을주택관리소 공구 대여 서비스를 이용하시는 계양 구민들에게</p>
+            <p>
+              <span style="color: dodgerblue"
+                >‘마을주택관리소 친환경 에코백’</span
+              >에 공구를 담아드립니다.
+            </p>
+
+            <img src="/img/bag2.png" alt="#" />
+            <p>
+              운영시간 :
+              <span style="color: dodgerblue">평일 09:00 ~ 18:00 </span> [토,
+              일요일 ,공휴일 및 점심시간 제외]
+            </p>
+            <p>
+              <span style="color: orangered">※ 점심시간 : 12:00 ~ 13:00</span>
+            </p>
+            <p>기간 : ~ 에코백 소진시 까지</p>
+            <p>대상 : 계양구 관내 주민 누구나(신분증 지참)</p>
+            <p>위치 : 계양구 효서로 137, 3층 마을주택관리소</p>
+            <p>문의 : 건축과(032-450-6793), 마을주택관리소(032-229-0099)</p>
+            <img src="/img/bag3.jpg" alt="#" />
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

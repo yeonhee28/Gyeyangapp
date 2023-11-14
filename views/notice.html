@@ -1,0 +1,28 @@
+{% include "include/header.html"%}
+<!--Title Area-->
+<div class="container mt-5">
+    <div class="bgtitle">
+       <h2 class="tt-text">공지사항</h2>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <div class="sleep">
+    <p>보기수 : 10개씩</p>
+    <div class="term">
+        <p>기간 : </p><input type="text" name="symd" id="symd" maxlength="10" value="" title="작성기간 검색 시작일 (형식:YYYY-MM-DD) / 검색 값 변경시 바로 검색이 됩니다." placeholder="검색 시작일" autocomplete="off" class="textfieldValidState">
+		&nbsp;&nbsp;~&nbsp;&nbsp;
+		<input type="text" name="eymd" id="eymd" maxlength="10" value="" title="작성기간 검색 종료일 (형식:YYYY-MM-DD) / 검색 값 변경시 바로 검색이 됩니다." placeholder="검색 종료일" autocomplete="off" class="textfieldValidState">
+    </div>
+ <div class="array_button">
+    <input type="submit" value="적용">
+ </div>
+ <div class="written">
+    -전체 0건, 현재페이지 0/0</div>
+  </div>
+  </div>
+
+  <div class="nodata">
+    등록된 게시글이 없습니다.
+  </div>
+{% include "include/footer.html"%}

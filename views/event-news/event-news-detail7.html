@@ -1,0 +1,109 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[6].title}}</strong>
+            <span class="daFe">{{ data[6].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/course1.jpg" alt="#" />
+            <p>계양청년마당 명사초청 강연 개최!</p>
+            <h5>
+              <span style="color: orangered">“네 인생, 우습지 않다“ </span>
+            </h5>
+            <p><mark>전한길 강사</mark>의 인생특강을 진행합니다,</p>
+            <h6>[전한길 강사 프로필]</h6>
+            <h6>- 대한민국의 공무원 한국사 시험 및</h6>
+            <h6>한국사검정능력시험 한국사 스타강사</h6>
+            <h6>- 현 메가공무원에서 한국사 강사</h6>
+            <h6>- [네 인생 우습지 않다] 저자</h6>
+
+            <img src="/img/course2.jpg" alt="#" />
+            <h5>
+              <span style="color: dodgerblue">▶ 강연 안내</span>
+            </h5>
+            <p>일시 : <span style="color: orangered">2023. 1. 11.(토) 15시</span></p>
+            <p>장소 : 계양구청 6층 대강당</p>
+            <p>참석대상 : 구민 350여명</p>
+            <p>강사 : 전한길</p>
+            <p>강의주제 : 청년특강 「네 인생 우습지 않다!」</p>
+            <p>참가비 : 무료
+            </p>
+            <p>접수방법 : 사전 온라인접수(QR코드) 또는 현장접수</p>
+            <h6>문의 : 계양청년마당 ☎ 032-450-8356
+            </h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

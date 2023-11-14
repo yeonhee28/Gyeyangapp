@@ -1,0 +1,128 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[0].title}}</strong>
+            <span class="daFe">{{ data[0].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/parking1.jpg" alt="#" />
+            <h5>
+              <span style="color: deeppink">주차장</span> 설치하고, 공유하고
+              지원받는
+            </h5>
+            <p>주차장 설치 및 개방 지원사업을 안내해드립니다!</p>
+            <img src="/img/parking2.jpg" alt="#" />
+            <p>
+              ● <span style="color: deeppink">아파트 부설주차장</span> 추가설치
+              지원사업 ●
+            </p>
+            <p>- 사업대상 : 아파트</p>
+            <p>- 사업내용 : 부설주차장 추가 설치시 보조금 지원</p>
+            <p>
+              - 지원금액 : 주차장 1면당 50만원, 아파트 당 3,000만원 한도 내​
+            </p>
+            <img src="/img/parking3.jpg" alt="#" />
+            <p>● <span style="color: deeppink"> 그린파킹 </span>사업 ●</p>
+            <p>
+              - 사업대상 : 단독, 다세대 주택 등 (담장이나 대문을 허물어 주차장
+              조성)
+            </p>
+            <p>- 사업내용 : 주차장 조성 보조금 지원</p>
+            <p>
+              - 지원금액 : 기본 650만원, 주차면 1면 추가시마다 100만원 추가지원​
+            </p>
+            <img src="/img/parking4.jpg" alt="#" />
+            <p>
+              ● <span style="color: deeppink"> 부설주차장 개방지원</span> 사업 ●
+            </p>
+            <p>-사업대상 : 상가건물, 종교시설 등</p>
+            <p>
+              - 사업내용 : 부설주차장 무료개방시 시설개선비 또는 운영보전금 지원
+              (각 보조금 중복지급 불가)
+            </p>
+            <p>- 지원금액 : 시설개선비 (최대 3,000만원 지원)</p>
+            <p>운영보전금 (1면당 2만원/월, 최대 60면까지 지원)</p>
+
+            <p>교통행정과 교통시설팀 ☎032-450-6814</p>
+
+            <h6>문의</h6>
+            <h6>교통행정과 교통시설팀</h6>
+            <h6>☎ 032-450-6814</h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

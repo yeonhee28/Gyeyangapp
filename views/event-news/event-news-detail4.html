@@ -1,0 +1,140 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[3].title}}</strong>
+            <span class="daFe">{{ data[3].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/child1.jpg" alt="#" />
+            <p>2023 아동학대 예방의 날 기념 행사를 진행합니다.</p>
+            <p>아동이 행복한 계양구</p>
+            <p><span style="color: orange">“뮤지컬 DAY”</span></p>
+            <img src="/img/child2.jpg" alt="#" />
+
+            <h5>
+              <span style="color: orange">▶ 행사 안내</span>
+            </h5>
+            <p>
+              - 일시 :
+              <span style="color: orangered"
+                >2023. 11. 18.(토) 15:00 ~ 17:00</span
+              >
+            </p>
+            <p>- 장소 : 계양구청 6층 대강당</p>
+            <p>- 관람대상 : 관내 만4세 ~ 6세 아동 및 보호자​</p>
+            <p><span style="color: orangered">※ 보호자 동반 필수</span>​</p>
+            <p>- 입장료 : 무료</p>
+            <p>- 신청방법: 계양구 홈페이지를 통한 사전 신청​</p>
+            <p>계양구 홈페이지를 통한 사전 신청​</p>
+            <p>
+              <span style="color: orangered">※ 11월 11일부터 선착순 마감</span>​
+            </p>
+
+            <img src="/img/child3.jpg" alt="#" />
+            <h5>
+              <span style="color: orange">▶ 행사 안내</span>
+            </h5>
+            <p>
+              <span style="color: orangered"
+                >일시 : 2023. 11. 18.(토) 15:00 ~ 17:00</span
+              >
+            </p>
+            <br />
+            <p>
+              ✅아동학대 예방의 날 기념 행사 아동이 행복한 계양구 “뮤지컬 DAY”
+            </p>
+            <p>- 소년소녀 합창단 공연</p>
+            <p>- 아동학대 없는 세상을 위한 사회적 공동 실천 선언문 낭독</p>
+            <p>- 어린이 뮤지컬 (앤서니브라운의 “우리가족”)</p>
+            <p>장소 : 구청 대강당</p>
+            <br />
+
+            <p>✅체험부스 운영</p>
+            <p>- 민속놀이 체험, 포토존 등</p>
+            <p>- 교육자료, 홍보물품, 풍선 등 제공</p>
+            <p>장소 : 구청 대강당 앞</p>
+            <br />
+
+            <p>✅홍보부스 운영</p>
+            <p>- 구 아동보호팀, 경찰서</p>
+            <p>- 아동보호전문기관, 가족센터</p>
+            <p>- 육아종합지원센터</p>
+            <p>장소 : 구청 대강당 앞</p>
+
+            <img src="/img/child4.jpg" alt="#" />
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

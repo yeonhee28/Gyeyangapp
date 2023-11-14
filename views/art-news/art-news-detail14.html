@@ -1,0 +1,104 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/art">문화소식</a></span>
+            <strong class="title_news">{{data[13].title}}</strong>
+            <span class="daFe">{{data[13].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/love1.jpg" alt="#" />
+            <p><span style="color: orangered">'지중해의 뜨거운 사랑'</span></p>
+            <p>계양구립교향악단 정기연주회가 열립니다!</p>
+
+            <img src="/img/love2.jpg" alt="#" />
+
+            <h5>
+              <span style="color: dodgerblue">▶ 공연안내</span>
+            </h5>
+
+            <p><mark>일시</mark> : 2023. 6. 20.(화) 19:30 ~ 21:20</p>
+            <p><mark>장소</mark> : 계양문화회관 공연장[795석]</p>
+            <p><mark>출연자</mark> : 계양구립교향악단(지휘 김현수), 테너 정호윤,</p>
+            <p>오페라 <리골레토> 오디션 선발 성악가 3명</p>
+            <p>(소프라노 조예희, 메조소프라노 김유라, 바리톤 백진호)</p>
+            <p><mark>관람료</mark> : 선착순 무료</p>
+            <br />
+            <h6><mark>주최</mark> : 인천광역시 계양구</h6>
+            <h6><mark>문의처</mark> : 계양구청 문화체육관광과 032-450-5873</h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

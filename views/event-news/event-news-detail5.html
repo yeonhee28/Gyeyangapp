@@ -1,0 +1,100 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[4].title}}</strong>
+            <span class="daFe">{{ data[4].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/submit1.png" alt="#" />
+            <p>「부동산 가격공시에 관한 법률」제10조 및 같은 법 시행령 제21조 규정에 따라 </p>
+            <p><span style="color:royalblue">2023년 7월 1일 기준 개별공시지가</span>를 다음과 같이 결정·공시하오니 결정된 개별공시지가에 대하여  </p>
+            <p>이의가 있는 토지소유자 등은 이의신청을 하시기 바랍니다. </p>
+            
+            <img src="/img/submit2.png" alt="#" />
+            <p><span style="color:royalblue">기준일</span> : 2023년 7월 1일</p>
+            <p><span style="color:royalblue">결정, 공시일</span> : 2023년 10월 31일</p>
+            <p><span style="color:royalblue">대상</span> : 토지소유자 및 이해관계인</p>
+            <p><span style="color:royalblue">제출기간</span> : 2023년 10월 31일 ~ 11월 30일</p>
+            <p><span style="color:royalblue">제출방법</span> : <span style="color: orangered">계양구 홈페이지에서 다운로드</span> 또는
+            <span style="color: orangered">계양구 토지정보과</span>에 </p><p>비치되어 있는 개별공시지가 이의신청서 서식에 기재
+            </p>
+            <p><span style="color:royalblue">제출처</span> : 계양구 토지정보과 토지평가팀 (032)450-5353~54</p>
+
+            <img src="/img/submit3.png" alt="#" />
+
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

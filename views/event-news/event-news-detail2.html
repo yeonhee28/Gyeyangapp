@@ -1,0 +1,136 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[1].title}}</strong>
+            <span class="daFe">{{ data[1].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/youth1.jpg" alt="#" />
+
+            <p>청년들의 쉼과 도약의 공간!</p>
+            <p><span style="color: dodgerblue">계양청년마당</span>에서</p>
+            <p><span style="color: orange">다양한 이벤트&행사 안내</span></p>
+            <img src="/img/youth2.jpg" alt="#" />
+
+            <p>
+              <span style="color: dodgerblue">계양청년마당</span>에서
+              <span style="color: orange">풍성한 이벤트와 행사</span>를
+              진행합니다.
+            </p>
+            <p>참여일정 및 방법을 알려드리니 많은 참여 바랍니다.</p>
+            <img src="/img/youth3.jpg" alt="#" />
+
+            <h5>
+              <span style="color: dodgerblue">▶ 이벤트 일정</span>
+            </h5>
+            <p>
+              <span style="color: orange">· SNS 이용후기 응모(~11.15.)</span> :
+              추첨 100명 커피 쿠폰 5천원
+            </p>
+            <p>
+              <span style="color: orange">· 이용 만족도 조사(~11.30.)</span> :
+              추첨 80명 편의점 쿠폰 5천원
+            </p>
+            <p>
+              <span style="color: orange">· 방문 이벤트(~12.10.) </span>: 방명록
+              누적 서명 제일 많은 10명에게 햄버거 쿠폰 1만원
+            </p>
+
+            <img src="/img/youth4.jpg" alt="#" />
+            <h5>
+              <span style="color: dodgerblue">▶ 행사 일정</span>
+            </h5>
+            <p>
+              <span style="color: green">∙ 청년시네마(11. 8. 오전10시) </span>:
+              영화도 보고 햄버거도 먹고
+            </p>
+            <p>
+              <span style="color: green">∙ 명사초청 강연(11. 11. 오후3시)</span>
+              : 전한길 ‘네 인생 우습지 않다
+            </p>
+            <p>
+              <span style="color: green"
+                >∙지역멘토 청년멘토링&청년힐링콘서트(11 . 28. 오후4시)</span
+              >
+              : 감미로운 음악과 창업 진로설계, 맛있는 음식까지
+            </p>
+            <p>* 자세한 사항은 계양구청 홈페이지 공지사항을 확인해 주세요!</p>
+            <h6>문의</h6>
+            <h6>계양청년마당</h6>
+            <h6>☎ 032-450-8356</h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

@@ -1,0 +1,105 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[8].title}}</strong>
+            <span class="daFe">{{ data[8].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/spring1.jpg" alt="#" />
+            <p><mark>제 29회 구민의 날 기념</mark></p>
+            <p><span style="color: orangered;">가을 음악회</span>방송 편성 안내</p>
+
+            <img src="/img/spring2.jpg" alt="#" />
+            <p><mark>방송 편성 일정</mark></p>
+            <p>본방: <span style="color: orangered;">2023. 10. 30.(월) 23:00</span></p>
+            <p>재방 : 2023. 10. 31.(화) 23:00 / 11. 4.(토) 22:00</p>
+            <p>채널 : LG헬로비전 북인천방송 (헬로TV: 25번)</p>
+
+            <img src="/img/spring3.jpg" alt="#" />
+            <h5><mark>음악회 안내</mark></h5>
+            <p>※ 가을음악회 진행자 : 장용</p>
+            <p>변진섭(18분) : 네게 줄 수 있는 건, 희망사항, 새들처럼</p>
+            <p>트라이비(14분) : We are Young, In The Air</p>
+            <p>김완준(8분) : 안동역에서(진성), 세월꽃</p>
+            <p>김용임(16분) : 오늘의 젊은 날, 인생시계, 메들리(사랑의 밧줄, 부초같은 인생, 사랑님)</p>
+            <p>박재정(15분) : 한걸음, 헤어지자 말해요, 좋았는데</p>
+            <p>이찬원(18분) : 밥 한번 먹자, 사나이 청춘, 트위스트 고고, 진또배기</p>
+            <p>송가인(17분) : 한 많은 대동강, 오늘같이 좋은 날, 정말 좋았네, 메들리(처녀뱃사공, 용두산 엘리지, 홍도야 우지마라)</p>
+
+
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

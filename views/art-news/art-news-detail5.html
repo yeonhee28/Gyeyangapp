@@ -1,0 +1,109 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/art">문화소식</a></span>
+            <strong class="title_news">{{data[4].title}}</strong>
+            <span class="daFe">{{ data[4].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/flo1.png" alt="#" />
+            <p>제29회 구민의 날을 기념하여</p>
+            <p>제15회 <mark>가을꽃 전시회</mark>를 개최합니다!</p>
+            <p>- 국화 · 야생화 -</p>
+
+            <img src="/img/flo2.png" alt="#" />
+            <p><mark>제15회 가을꽃 전시회</mark></p>
+            <p>일 시 : 2023. 9. 26. ~ 2023. 10. 31.</p>
+            <p<span style="color: purple"> ※ 국화 개화 상태에 따라 전시기간 변동 가능</span></p>
+            <p>장 소 : 구청 남측광장</p>
+            <img src="/img/flo3.png" alt="#" />
+            <p><전시 콘셉트 및 작품></p>
+            <p>전시 콘셉트 : 꿈을 향한 변화의 도시, 비상하는 계양</p>
+            <p>구정구호의 계양산과 아라뱃길 등을 국화 화단으로 연출</p>
+            <p><전시작품></p>
+            <p><span style="color: purple;">초화류</span> : 구화, 야생화 등 총 10,000본</p>
+            <p><span style="color: purple;">조형물</span> : 국화조형물 20종 총 34개</p>
+            <p><span style="color: purple;">분재류</span> : 34점</p>
+            <p>문의사항 : 계양구 공원녹지과 ☎ 032-450-4904
+            </p>
+        
+
+
+
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

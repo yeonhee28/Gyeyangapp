@@ -1,0 +1,108 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[11].title}}</strong>
+            <span class="daFe">{{ data[11].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/music1.jpg" alt="#" />
+            <p>2023 계양산</p>
+            <p>
+              <span style="color: orangered">숲속의 음악회</span>를 개최합니다!
+            </p>
+            <img src="/img/music2.jpg" alt="#" />
+
+
+            <p>곱게 물든 단풍과 시원한 바람이 불어오는 가을,</p>
+            <p>
+              <span style="color: orangered">찾아가는 음악회를 개최</span
+              >하오니,
+            </p>
+            <p>구민 여러분의 많은 관심과 참석 부탁드립니다.</p>
+            <img src="/img/music3.jpg" alt="#" />
+
+
+            <h5>
+              <span style="color: orangered">▶ 음악회 안내</span>
+            </h5>
+            <p>일시 : 2023. 11. 4.(토) 11:00</p>
+            <p>장소 : 목상동 솔밭길</p>
+            <p>내용 : 성악, 클래식 연주(트럼펫, 오보에, 트럼본), 해금 연주</p>
+            <p>입장료 : 무료</p>
+            <p>문의처 : 계양구청 문화체육관광과 ☎032-450-5877</p>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

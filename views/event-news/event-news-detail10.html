@@ -1,0 +1,102 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[9].title}}</strong>
+            <span class="daFe">{{ data[9].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/advice1.jpg" alt="#" />
+            <p>"생활 속 세금고민"</p>
+            <p><mark>마을 세무사와 무료로 상담</mark>하세요!</p>
+
+            <img src="/img/advice2.jpg" alt="#" />
+            <p><span style="color: dodgerblue;">「납세자보호관과 마을세무사가 함께 찾아가는 세무 상담실」</span> 운영 안내
+            </p>
+            <p>경제적·시간적 여유가 없는 어려운 구민을 대상으로</p>
+            <p>무료 세무상담 서비스를 운영합니다!
+            </p>
+            <h6>○ 일 정 : <span style="color: dodgerblue;">2023. 11. 15. (수) 14:00~16:00</span>
+            </h6>
+            <h6>○ 장 소 : <span style="color: dodgerblue;">계양구청 1층 통계실</span>
+            </h6>
+            <h6>○ 내 용 : 국세, 지방세 등 세금관련 무료 상담
+            </h6>
+            <h6>○ 예약 및 문의 : 계양구청 기획예산실 ☎032-450-5053
+            </h6>
+
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

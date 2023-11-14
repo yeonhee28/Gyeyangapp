@@ -1,0 +1,114 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[13].title}}</strong>
+            <span class="daFe">{{ data[13].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/covid1.jpg" alt="#" />
+            <p>2023-2024절기</p>
+            <p>
+              <span style="color: dodgerblue">코로나19 예방접종</span> 받으세요!
+            </p>
+            <img src="/img/covid2.jpg" alt="#" />
+            <h5>
+              <span style="color: dodgerblue">▶ 예방접종 안내</span>
+            </h5>
+            <p>접종백신 : 현재 변이에 맞춘 신규백신(XBB 기반)</p>
+            <p>
+              권고대상 : 65세 이상, 면역저하자, 감염취약시설 입원·입소 및 종사자
+            </p>
+            <p>
+              사전예약 : 사전예약 누리집(ncvr.kdca.go.kr), 의료기관 유선 예약
+            </p>
+
+            <img src="/img/covid3.jpg" alt="#" />
+
+            <h5>
+              <span style="color: dodgerblue">▶ 예방접종 일정</span>
+            </h5>
+            <p>
+              2023. 10. 19.(목) ~ 2024. 3. 31.(일) : <mark>65세 이상, 12-64세
+                면역저하자,</mark>
+            </p>
+            <p><mark>감염취약시설 입원·입소 및 종사자</mark></p>
+            <p>2023. 11. 1.(수) ~ 2024. 3. 31.(일) : 그 외 12-64세</p>
+
+            <h6>코로나19 백신과 인플루엔자 백신 동시 접종을 권고합니다.</h6>
+            <h6>문의 ☎032-430-7848</h6>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

@@ -1,0 +1,138 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/art">문화소식</a></span>
+            <strong class="title_news">{{data[5].title}}</strong>
+            <span class="daFe">{{ data[5].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/light1.jpg" alt="#" />
+            <p><mark>도심 속 빛의 향연</mark></p>
+            <p>
+              제 2회<span style="color: purple">계양 빛 축제</span>를
+              개최합니다!
+            </p>
+
+            <img src="/img/light2.jpg" alt="#" />
+            <h5>
+              <span style="color: purple">▶ 행사 안내</span>
+            </h5>
+        </br>
+
+            <h6>기간<mark>2023.9.26.(화) ~ 2024.2.16.(금)</mark></h6>
+            <p>
+              <span style="color: orangered"
+                >※ 점등식: 2023. 9. 26.(화) 18:00</span
+              >
+            </p>
+            <p>장소 : 계양문화로 및 구청 남측광장, 오조산공원</p>
+            </br>
+            <h6>내용 : 빛조형물, 포토존, 미디어아트 등 전시,</h6>
+            <h6>점등행사 및 예술공연 진행</h6>
+            </br>
+            <img src="/img/light3.jpg" alt="#" />
+            <h5>
+                <span style="color: purple">▶ 행사 일정</span>
+              </h5>
+            <h5><mark>빛 축제 점등식</mark>
+            </h5>
+            <p>장소 : 구청 잔디광장 주차장</p>
+            <p>일시 : 2023. 9. 26.(화) 18:00</p>
+            <p>내용 :  식전행사 > 내빈소개, 축사, 점등식 등 > 유명가수 축하공연</p>
+
+            <h5><mark>지역상생 문화예술공연</mark>
+            </h5>
+            <p>장소 : 구청 잔디광장 주차장</p>
+            <p>일시 : 2023. 10. 14.(토) 14:00
+            </p>
+            <p>내용 : 지역예술인 공연 및 시민참여 이벤트 등</p>
+            </hr>
+            </h5>
+            <p>장소 : 구청 남측광장</p>
+            <p>일시 : 2023. 12. 2.(토) 17:00
+            </p>
+            <p>
+                내용 : 크리스마스트리 점등식 및 축하공연 등</p>
+            <img src="/img/light4.jpg" alt="#" />
+
+
+
+
+
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

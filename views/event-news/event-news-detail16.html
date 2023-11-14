@@ -1,0 +1,129 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[15].title}}</strong>
+            <span class="daFe">{{ data[15].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/animal1.jpg" alt="#" />
+            <p>2023 <mark>올바른 반려문화</mark></p>
+            <p>포스터 공모전 안내</p>
+            <img src="/img/animal2.jpg" alt="#" />
+            <p>올바른 반려문화 확산과 사람과 동물이 공존하는</p>
+            <p>행복한 계양구 조성을 위한</p>
+            <p>
+              <span style="color: orangered">올바른 반려문화 포스터</span>를
+              공모하오니
+            </p>
+            <p>초등학교 학생들의 많은 참여 바랍니다.</p>
+            <img src="/img/animal3.jpg" alt="#" />
+
+            <h5>
+              <span style="color: green">▶ 공모 안내</span>
+            </h5>
+            <p><mark>공모자격</mark> : 계양구 관내 초등학교 재학생</p>
+            <p><mark>공모부문</mark> : 올바른 반려문화 포스터 (4절 도화지 394mm x 545mm)</p>
+            <p>
+              <span style="color: orangered">※ 규격 미준수 시 접수 불가</span>
+            </p>
+            <p><mark>공모주제</mark> : 올바른 반려문화 실천을 위한 다양한 소개</p>
+            <p>
+              <mark>공모기간</mark> :
+              <span style="color: green">2023.10.12(목) ~ 11.10(금)</span>
+              18시까지
+            </p>
+            <p>
+              <mark>접수방법</mark> : 학교 또는 개인별로 계양구청 5층, 지역경제과
+              동물보호팀에 방문접수
+            </p>
+            <p><mark>문의</mark> : 지역경제과 동물보호팀 ☎ 032-450-6842~5</p>
+
+            <img src="/img/animal4.jpg" alt="#" />
+
+            <h5>
+              <span style="color: green">▶ 발표 안내</span>
+            </h5>
+            <p>
+              <mark>발표</mark> : 2023. 11. 15.(수) ~ 11. 24.(금) 중 계양구청 홈페이지 게시
+              및 학교 개별통지
+            </p>
+            <p><mark>시상일자</mark> : 2023. 12. 1.(금)</p>
+            <p><mark>작품전시</mark> : 2023. 12. 1.(금) ~ 12. 13.(수)</p>
+            <p>ㅇ 아트갤러리 전시 : 계양구청 1층 전시홀</p>
+            <p>ㅇ 온라인 전시 : 계양구청 홈페이지 및 SNS</p>
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

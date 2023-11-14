@@ -1,0 +1,136 @@
+{% include "include/header.html"%}
+<!--Banner-->
+<div class="banner-inner"></div>
+<!--End Banner-->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/news/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/news">계양소식</a></span>
+            <strong class="title_news">{{data[14].title}}</strong>
+            <span class="daFe">{{ data[14].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/rode1.jpg" alt="#" />
+            <p>
+              '일상의 <span style="color: mediumaquamarine">도</span>로에
+              <span style="color: mediumaquamarine">쉼</span>표를'
+            </p>
+            <p><mark>2023 계양구 차 없는 거리 문화 행사</mark>를 진행합니다.</p>
+
+            <img src="/img/rode2.jpg" alt="#" />
+            <h5>
+              <span style="color: mediumaquamarine">▶ 행사 안내</span>
+            </h5>
+
+            <p><mark>일시</mark> : 2023. <span style="color: mediumaquamarine">10. 28.(토)</span> 10:00~16:00</p>
+            <p>- 차량 통제 시간 : 2023. 10. 28.(토) 07:00~18:00</p>
+            <p>- 버스 우회 시간 : 05:00~18:00</p>
+            <p>- 우회 버스 노선 : 583번, 인천e음71번, 584-1번, 587번</p>
+
+            <hr />
+            <p>
+              <mark>운영구간</mark> : 계산2동 행정복지센터 ~ 계산국민체육센터 앞(190미터)
+            </p>
+
+            <hr />
+            <p><mark>주요행사</mark> : 프리마켓, 버스킹 공연, 체험부스, 로컬푸드 마켓 등</p>
+            <p>공연 - 버스킹 공연 (11시~15시 30분 / 9팀)</p>
+            <p>체험부스 - 체험부스 5개, 포토부스 1개</p>
+            <p>프리마켓(22개)</p>
+            <p>- (마운틴마켓) 일반 셀러로 이루어진 상생 프리마켓(17개)</p>
+            <p>
+              - (가치(같이) 에코路) 지역 주민들이 준비하는 로컬푸드 마켓(5개)
+            </p>
+            <p>
+              전시 - 제1회 아라뱃길 워터축제 사생대회 수상작 작품 전시(17점)
+            </p>
+            <p>
+              기타 - 계양관광지 스템프투어(계양산성박물관, 부평향교,
+              부평도호부관아)
+            </p>
+            <p>※ 추첨하여 모바일상품권(10,000원) 지급</p>
+
+            <br />
+            <p>
+              <span style="color: orangered"
+                >※ 행사 당일은 대중교통을 이용하여 주시기 바라며,
+              </span>
+            </p>
+            <p>
+              <span style="color: orangered"
+                >소음이 발생할 수 있으니 양해 바랍니다.
+              </span>
+            </p>
+
+            <img src="/img/rode3.jpg" alt="#" />
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}

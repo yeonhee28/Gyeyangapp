@@ -1,0 +1,103 @@
+{% include "include/header.html"%}
+<!-- Banner -->
+<div class="banner-inner"></div>
+<!-- End Banner -->
+<!-- EventNotice -->
+<div class="container mt-3">
+  <div class="blogPrev">
+    <table class="table table-borderless table-sm table-hover">
+      <tbody class="table1">
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail1">{{data[0].title}}</a>
+          </td>
+          <td class="tbdate">{{data[0].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail2">{{data[1].title}}</a>
+          </td>
+          <td class="tbdate">{{data[1].date}}</td>
+        </tr>
+        <tr>
+          <th class="title">공지</th>
+          <td class="tbcontent">
+            <a href="/art/detail3">{{data[2].title}}</a>
+          </td>
+          <td class="tbdate">{{data[2].date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End EventNotice -->
+<!-- EventContent -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <ul class="newslist_detail">
+        <li class="item_news">
+          <div class="area_text">
+            <span class="news-link"><a href="/art">문화소식</a></span>
+            <strong class="title_news">{{data[10].title}}</strong>
+            <span class="daFe">{{data[10].date}}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<section class="pf-details section">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="inner-content">
+          <div class="body-text">
+            <img src="/img/opera1.jpg" alt="#" />
+            <p><mark>제29회 계양구민의 날 </mark>을 기념해</p>
+            <p>
+              <span style="color: orangered">오페라 '리골레토'</span>를
+              공연합니다.
+            </p>
+            <img src="/img/opera2.jpg" alt="#" />
+            <h5>
+              <span style="color: dodgerblue">▶ 공연안내</span>
+            </h5>
+            <p>일시 : 2023. 9. 22.(금) 오후 7:30, 2023. 9. 23.(토) 오후 3:00</p>
+            <p>장소 : 계양문화회관 공연장[795석]</p>
+            <p>관람료 : 1층 1만원, 2층 7천원, 2층 시야제한석 5천원</p>
+            <p>예매 : 인터파크(ticket.interpark.com)</p>
+            <p>관람연령 : 8세 이상</p>
+            <p>문의 : 계양구청 문화체육관광과 ☎032-450-5873</p>
+
+            <img src="/img/opera3.png" alt="#" />
+
+            <div class="share">
+              <h4>Share Now -</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "include/footer.html"%}
